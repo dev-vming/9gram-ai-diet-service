@@ -14,7 +14,7 @@ RUN pip3 install --no-cache-dir -r requirements.txt
 RUN chmod +x /app/app.py
 
 # Make port 5001 available to the world outside this container
-EXPOSE 5001
+EXPOSE 5002
 
 # Run app.py when the container launches
 CMD ["python3", "app.py"]
