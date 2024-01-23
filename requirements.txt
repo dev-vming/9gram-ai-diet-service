@@ -1,12 +1,12 @@
-# numpy
 # pandas
-# opencv-python
 # scikit-learn
 # scikit-image
-# tensorflow
 # keras
 # matplotlib
 # Pillow
 # openai
 flask
-
+flask_cors
+opencv-python
+ultralytics
+numpy
