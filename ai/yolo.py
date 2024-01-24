@@ -6,7 +6,7 @@ def process_img(img):
     result = model(img)[0].boxes
 
     cls = result.cls.tolist()
-    xywhn = result.xyxy.tolist()
+    xywhn = result.xywhn.tolist()
     dic = {0: '그릇', 1: '쌀밥', 2: '기타잡곡밥', 3: '콩밥', 4: '보리밥',
            5: '돌솥밥', 6: '현미밥', 7: '흑미밥', 8: '유부초밥', 9: '참치김밥', 10: '떡라면',
            11: '라면', 12: '비빔국수', 13: '쌀국수', 14: '오일소스스파게티', 15: '쫄면',
@@ -25,9 +25,10 @@ def process_img(img):
     send = []
     
     for item in ans:
-        food_dic = OrderedDict()
-        food_dic["foodName"] = item[0]
-        food_dic["XYCoordinate"] = [item[1], item[2]]
+        food_dic = {
+            "foodName": item[0],
+            "XYCoordinate": [item]
+        }
         send.append(food_dic)
 
     return send
