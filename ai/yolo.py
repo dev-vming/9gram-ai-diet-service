@@ -27,7 +27,7 @@ def process_img(img):
     for item in ans:
         food_dic = {
             "foodName": item[0],
-            "XYCoordinate": [item[1:]]
+            "XYCoordinate": item[1:]
         }
         send.append(food_dic)
 
