@@ -2,7 +2,7 @@ from ultralytics import YOLO
 from collections import OrderedDict
 
 def process_img(img):
-    model = YOLO('ai/best.pt')
+    model = YOLO('ai/best_2.pt')
     result = model(img)[0].boxes
 
     cls = result.cls.tolist()
