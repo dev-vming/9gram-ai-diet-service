@@ -1,0 +1,12 @@
+# pandas
+# scikit-learn
+# scikit-image
+# keras
+# matplotlib
+# Pillow
+# openai
+flask
+flask_cors
+opencv-python
+ultralytics
+numpy
