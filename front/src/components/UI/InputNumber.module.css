@@ -1,0 +1,164 @@
+/* INPUT TYPE= NUMBER */
+
+input {
+  -webkit-appearance: textfield;
+  -moz-appearance: textfield;
+  appearance: textfield;
+}
+
+input::-webkit-inner-spin-button,
+input::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+}
+
+.input {
+  padding-left: 20px;
+  border-radius: 20px;
+  border-style: none;
+  outline: none;
+}
+
+.numberInput {
+  position: relative;
+  cursor: pointer;
+  user-select: none;
+  font-family: var(--basic-font), sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  /* @include mobile-l {
+    transform: translateY(18px);
+  } */
+}
+
+/* POSITION CLASS */
+
+.absolute {
+  position: absolute;
+  top: 5px;
+  right: 40px;
+}
+
+/* ELEMENT CLASS */
+.upper {
+  /* transform: translateY(-52px) translateX(80px); */
+  cursor: pointer;
+  user-select: none;
+  width: 20px;
+
+  /* @include mobile-l {
+    svg {
+      width: 12px;
+    }
+    transform: translateY(-37px) translateX(38px);
+  } */
+}
+
+.upper svg {
+  width: 20px;
+}
+
+.down {
+  /* transform: translateY(-47px) translateX(80px); */
+  cursor: pointer;
+  user-select: none;
+  width: 20px;
+  /* @include mobile-l {
+    svg {
+      width: 12px;
+    }
+    transform: translateY(-41px) translateX(38px);
+  } */
+}
+
+.down svg {
+  width: 20px;
+}
+
+/* INPUT DEFAULT STYLE */
+
+.input {
+  border-radius: 7px;
+  border: 2px solid var(--main-lightblue);
+  font-weight: 700;
+  flex-shrink: 0;
+  width: 350px;
+  height: 55px;
+  background-color: #fff;
+  color: #000000;
+  padding: 15px;
+  box-sizing: border-box;
+}
+
+/*
+정의필요!
+.input:focus {
+
+} */
+
+/* INPUT CLASS */
+
+.variant-default {
+  border: 2px solid var(--main-lightblue);
+}
+
+.variant-active {
+  border: 2px solid var(--main-blue);
+}
+
+.variant-validated {
+  border: 2px solid var(--sem-great);
+}
+
+.variant-error {
+  border: 2px solid var(--sem-bad);
+}
+
+/* INPUT STYLE */
+
+.white {
+  background-color: #fff;
+  border: 1px solid var(--main-skyblue);
+  color: var(--main-blue);
+}
+
+.lightblue {
+  color: #000;
+  background-color: var(--main-lightblue);
+}
+
+.blue {
+  background-color: #346dff;
+  border: 1px solid var(--main-blue);
+  color: #fff;
+}
+
+.gray {
+  background-color: #fff;
+  border: 1px solid var(--main-lightblue);
+  color: #3c3c3c;
+}
+
+/* INPUT SIZE CLASS */
+
+.size-large {
+  width: 350px;
+  height: 55px;
+}
+
+.size-medium {
+  width: 280px;
+  height: 35px;
+}
+
+.size-small {
+  width: 165px;
+  height: 55px;
+  padding: 18px 0 18px 25px;
+}
+
+/* FONT SIZE CLASS */
+.r-large {
+  font-family: var(--basic-font), sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+}

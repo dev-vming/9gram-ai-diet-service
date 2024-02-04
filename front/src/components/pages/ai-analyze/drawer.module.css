@@ -1,0 +1,132 @@
+.drawer_wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 16px 0px 22px 0px;
+  gap: 15px;
+}
+
+.card_wrapper {
+  width: 350px;
+  height: 140px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  border-radius: 10px;
+  border: 1px solid var(--main-lightblue);
+  box-shadow: 0px 4px 4px 1px var(--main-lightblue);
+  padding: 13px 15px 10px 15px;
+  position: relative;
+}
+.detail_wrapper {
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border-radius: 10px;
+  border: 1px solid var(--main-lightblue);
+  box-shadow: 0px 4px 4px 1px var(--main-lightblue);
+  padding: 13px 15px 10px 15px;
+  position: relative;
+}
+
+.date {
+  width: 320px;
+  text-align: left;
+}
+.type {
+  width: 55px;
+  height: 20px;
+  border-radius: 10px;
+  color: white;
+  padding: 2.2px;
+  position: absolute;
+  right: 14px;
+}
+.recommend {
+  background-color: var(--main-blue);
+}
+.analyze {
+  background-color: var(--sem-bad);
+}
+.goal {
+  background-color: var(--sem-great);
+}
+
+.tag {
+  width: fit-content;
+  height: 25px;
+  border-radius: 10px;
+  padding: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.recommend_tag {
+  border: 1px solid var(--main-blue);
+  color: var(--main-blue);
+}
+.analyze_tag {
+  border: 1px solid var(--sem-bad);
+  color: var(--sem-bad);
+}
+.goal_tag {
+  border: 1px solid var(--sem-great);
+  color: var(--sem-great);
+}
+
+.option_wrapper {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  border-top: 1px solid var(--main-lightblue);
+  border-bottom: 1px solid var(--main-lightblue);
+}
+.option {
+  display: flex;
+  justify-content: space-between;
+}
+.option_goal {
+  color: var(--main-blue);
+}
+.detail {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.text {
+  width: 320px;
+  height: 50px;
+  text-align: left;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  line-height: normal;
+}
+.detail_text,
+.share_text {
+  width: 320px;
+  margin-top: 3px;
+  text-align: left;
+  line-height: normal;
+}
+.share_text {
+  margin-bottom: 3px;
+}
+
+.button_wrapper {
+  display: flex;
+  justify-content: flex-end;
+  gap: 15px;
+  width: 100%;
+  margin-top: 5px;
+}
+.button_wrapper button {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  color: var(--main-blue);
+}

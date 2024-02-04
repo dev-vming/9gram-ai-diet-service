@@ -1,0 +1,161 @@
+.login-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  /* height: 100vh; */
+}
+
+.title {
+  height: 100px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.title-text {
+  flex: 1;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.title-line {
+  width: 100%;
+  height: 1px;
+  background-color: var(--gray-lev-1);
+  margin-bottom: 10px;
+}
+
+.body {
+  width: 100%;
+  display: flex;
+  text-align: left;
+  flex-direction: column;
+  margin-top: 40px;
+  margin-left: 60px;
+}
+
+.button-container {
+  margin-top: auto;
+  margin-bottom: 100px;
+}
+
+/* FONT CLASSES */
+/* 
+.b-super {
+  font-family: var(--basic-font), sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+}
+
+.b-large {
+  font-family: var(--basic-font), sans-serif;
+  font-weight: 700;
+  font-size: 27px;
+}
+
+.b-big {
+  font-family: var(--basic-font), sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.b-medium {
+  font-family: var(--basic-font), sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.b-regular {
+  font-family: var(--basic-font), sans-serif;
+  font-weight: 700;
+  font-size: 15px;
+}
+
+.b-small {
+  font-family: var(--basic-font), sans-serif;
+  font-weight: 700;
+  font-size: 13px;
+}
+
+.b-tiny {
+  font-family: var(--basic-font), sans-serif;
+  font-weight: 700;
+  font-size: 10px;
+}
+
+.r-super {
+  font-family: var(--basic-font), sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.r-large {
+  font-family: var(--basic-font), sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+}
+
+.r-big {
+  font-family: var(--basic-font), sans-serif;
+  font-weight: 400;
+  font-size: 13px;
+}
+
+.r-medium {
+  font-family: var(--basic-font), sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+}
+
+.r-regular {
+  font-family: var(--basic-font), sans-serif;
+  font-weight: 400;
+  font-size: 11px;
+}
+
+.r-small {
+  font-family: var(--basic-font), sans-serif;
+  font-weight: 400;
+  font-size: 10px;
+}
+
+.r-tiny {
+  font-family: var(--basic-font), sans-serif;
+  font-weight: 400;
+  font-size: 8px;
+}
+
+.s-superlarge {
+  font-family: var(--basic-font), sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  color: #346dff;
+}
+
+.s-large {
+  font-family: var(--basic-font), sans-serif;
+  font-weight: 600;
+  font-size: 17px;
+}
+
+.s-big {
+  font-family: var(--basic-font), sans-serif;
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.s-medium {
+  font-family: var(--basic-font), sans-serif;
+  font-weight: 600;
+  font-size: 13px;
+}
+
+.s-tiny {
+  font-family: var(--basic-font), sans-serif;
+  font-weight: 600;
+  font-size: 8px;
+}
+ */

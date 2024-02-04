@@ -1,0 +1,71 @@
+.mergeTagContainer {
+  /* position: relative; */
+  z-index: 30;
+  width: 30px;
+}
+
+.tag {
+  position: absolute;
+  background: rgba(43, 43, 43, 0.6);
+  color: white;
+  border-radius: 15px;
+  padding: 4px 9px;
+  max-width: 80px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-bottom: 23px;
+}
+
+.tagCount {
+  position: absolute;
+  right: 0;
+  top: 0;
+  background: var(--main-blue);
+  border-radius: 50%;
+  width: 17px;
+  height: 17px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+  font-size: 11px;
+  color: #fff;
+}
+
+.selectedTagBox {
+  position: absolute;
+  padding: 7px 3px;
+  border-radius: 8px;
+  background: rgba(237, 243, 249, 0.95);
+  z-index: 500;
+  margin-top: 2px;
+  max-height: 66px;
+  overflow-y: none;
+  overflow-x: auto;
+}
+
+.selectedTagBox::-webkit-scrollbar {
+  width: 4px;
+}
+
+.selectedTagBox::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+.selectedTagBox::-webkit-scrollbar-thumb {
+  background-color: var(--main-skyblue);
+  border-radius: 20px;
+}
+.selectedTag {
+  display: block;
+  width: 100%;
+  margin: auto;
+  top: 20px;
+  color: rgba(43, 43, 43, 0.6);
+  padding: 2px 6px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  border-bottom: 2px solid #a0bfed;
+}

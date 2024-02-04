@@ -1,0 +1,17 @@
+.searchtext {
+  color: var(--main-blue);
+}
+
+.result {
+  position: absolute;
+  width: 280px;
+  height: 200px;
+  background-color: white;
+  border-radius: 7px;
+  border: 1px solid var(--main-skyblue);
+  top: 0px;
+  text-align: left;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}

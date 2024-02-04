@@ -1,0 +1,117 @@
+.datebox {
+  margin: 20px 20px 15px 20px;
+  text-align: start;
+}
+
+.imgbox {
+  margin: 0 20px;
+}
+
+.mealimg {
+  width: 350px;
+  height: 193px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.photobox {
+  margin: 0 20px;
+  display: flex;
+  flex-direction: row;
+}
+
+.addphotobtn {
+  margin-top: 12px;
+  width: 50px;
+  height: 90px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 10px;
+  border: 1px solid var(--main-skyblue);
+  flex-shrink: 0;
+}
+
+.btnicon {
+  width: 10px;
+  height: 10px;
+}
+
+.btntext {
+  color: var(--main-blue);
+  font-size: 10px;
+  font-weight: 700;
+}
+
+.tagbox {
+  padding-top: 12px;
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: row;
+}
+
+.tagbox:nth-child(0) {
+  margin-left: 10px;
+}
+
+.tagitem {
+  display: flex;
+  flex-direction: column;
+  margin: 0 5px;
+}
+
+.tagimgwrap {
+  margin-bottom: 8px;
+  position: relative;
+  width: 90px;
+  height: 90px;
+  border-radius: 10px;
+}
+
+.tagimg {
+  width: 90px;
+  height: 90px;
+  border-radius: 10px;
+}
+
+.focusimg {
+  border: 3px solid var(--main-blue);
+}
+
+.focustxt {
+  color: var(--main-blue);
+  font-family: var(--basic-font), sans-serif;
+  font-weight: 600;
+  font-size: 13px;
+  width:100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.tagtxt {
+  width:100%;
+  font-family: var(--basic-font), sans-serif;
+  font-weight: 400;
+  font-size: 13px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.tagdeleteicon {
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  top: -5px;
+  right: -5px;
+}
+
+.btnbox {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 20px 20px;
+}

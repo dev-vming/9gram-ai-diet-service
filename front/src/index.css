@@ -1,0 +1,234 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* RESET CSS */
+* {
+  margin: 0;
+  padding: 0;
+  font: inherit;
+  color: inherit;
+  user-select: none;
+}
+*,
+:after,
+:before {
+  box-sizing: border-box;
+}
+:root {
+  -webkit-tap-highlight-color: transparent;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+  cursor: default;
+  line-height: 1.5;
+  overflow-wrap: break-word;
+  -moz-tab-size: 4;
+  tab-size: 4;
+}
+html,
+body {
+  height: 100%;
+}
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+button {
+  background: none;
+  border: 0;
+  cursor: pointer;
+}
+a {
+  text-decoration: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* GLOBAL */
+
+html {
+  height: 100%;
+}
+
+body {
+  font-family: var(--basic-font);
+  font-size: var(--basic-font-size);
+}
+
+#root {
+  height: 100%;
+}
+
+/* VARIABLES */
+
+:root {
+  /* FONT STYLE */
+  --basic-font: 'Inter';
+  --weight-bold: 700;
+  /* FONT SIZE */
+  --small-font-size: 10px;
+  --medium-font-size: 13px;
+  --large-font-size: 15px;
+  /* COLOR */
+  --main-blue: #346dff;
+  --main-skyblue: #a0bfed;
+  --main-lightblue: #edf3f9;
+  --sem-great: #54d168;
+  --sem-bad: #ff6a6a;
+  --gray-lev-1: #e4e4e4;
+}
+
+.disabled {
+  color: var(--main-skyblue);
+  background-color: var(--main-lightblue);
+}
+
+.active {
+  color: white;
+  background-color: var(--mainblue);
+}
+
+/* FONT CLASSES */
+.b-super {
+  font-family: var(--basic-font), sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+}
+
+.b-large {
+  font-family: var(--basic-font), sans-serif;
+  font-weight: 700;
+  font-size: 27px;
+}
+
+.b-big {
+  font-family: var(--basic-font), sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.b-medium {
+  font-family: var(--basic-font), sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.b-regular {
+  font-family: var(--basic-font), sans-serif;
+  font-weight: 700;
+  font-size: 15px;
+}
+
+.b-small {
+  font-family: var(--basic-font), sans-serif;
+  font-weight: 700;
+  font-size: 13px;
+}
+
+.b-tiny {
+  font-family: var(--basic-font), sans-serif;
+  font-weight: 700;
+  font-size: 10px;
+}
+
+.r-super {
+  font-family: var(--basic-font), sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.r-large {
+  font-family: var(--basic-font), sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+}
+
+.r-big {
+  font-family: var(--basic-font), sans-serif;
+  font-weight: 400;
+  font-size: 13px;
+}
+
+.r-medium {
+  font-family: var(--basic-font), sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+}
+
+.r-regular {
+  font-family: var(--basic-font), sans-serif;
+  font-weight: 400;
+  font-size: 11px;
+}
+
+.r-small {
+  font-family: var(--basic-font), sans-serif;
+  font-weight: 400;
+  font-size: 10px;
+}
+
+.r-tiny {
+  font-family: var(--basic-font), sans-serif;
+  font-weight: 400;
+  font-size: 8px;
+}
+
+.s-large {
+  font-family: var(--basic-font), sans-serif;
+  font-weight: 600;
+  font-size: 17px;
+}
+
+.s-big {
+  font-family: var(--basic-font), sans-serif;
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.s-medium {
+  font-family: var(--basic-font), sans-serif;
+  font-weight: 600;
+  font-size: 13px;
+}
+
+/* CARET */
+
+.caret {
+  width: 10px;
+  margin-left: 10px;
+  translate: 0 40%;
+  border: 8px solid transparent;
+  border-top-color: black;
+}
+.s-regular {
+  font-family: var(--basic-font), sans-serif;
+  font-size: 11px;
+  font-weight: 600;
+}
+
+.s-small {
+  font-family: var(--basic-font), sans-serif;
+  font-size: 10px;
+  font-weight: 600;
+}
+
+.s-tiny {
+  font-family: var(--basic-font), sans-serif;
+  font-size: 8px;
+  font-weight: 600;
+}

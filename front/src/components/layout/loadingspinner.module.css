@@ -1,0 +1,68 @@
+* {
+	border: 0;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+:root {
+	--hue: 223;
+	--bg: hsl(var(--hue),90%,95%);
+	--fg: hsl(var(--hue),90%,5%);
+	--primary: hsl(var(--hue),90%,50%);
+	--trans-dur: 0.3s;
+	font-size: calc(16px + (24 - 16) * (100vw - 320px) / (1280 - 320));
+}
+body {
+	background-color: var(--bg);
+	color: var(--fg);
+	font: 1em/1.5 sans-serif;
+	height: 100vh;
+	display: grid;
+	place-items: center;
+	transition: background-color var(--trans-dur);
+}
+main {
+	padding: 1.5em 0;
+}
+.pl {
+	display: block;
+	overflow: visible;
+	width: 8em;
+	height: 8em;
+}
+.pl__ring {
+	stroke: hsla(var(--hue),90%,5%,0.1);
+	transition: stroke var(--trans-dur);
+}
+.pl__worm {
+	stroke: var(--primary);
+	transform-origin: 64px 64px;
+	visibility: hidden;
+}
+.pl__worm--moving {
+	animation: worm 8s linear;
+	visibility: visible;
+}
+
+/* Dark theme */
+@media (prefers-color-scheme: dark) {
+	:root {
+		--bg: hsl(var(--hue),90%,5%);
+		--fg: hsl(var(--hue),90%,95%);
+	}
+	.pl__ring {
+		stroke: hsla(var(--hue),90%,95%,0.1);
+	}
+}
+
+/* Animations */
+@keyframes worm {
+	from {
+		stroke-dasharray: 22 307.86 22;
+		transform: rotate(0);
+	}
+	to {
+		stroke-dasharray: 2 347.86 2;
+		transform: rotate(4turn);
+	}
+}

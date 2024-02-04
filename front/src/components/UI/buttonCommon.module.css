@@ -1,0 +1,238 @@
+/* BUTTON DEFAULT STYLE */
+
+.button {
+  border-radius: 7px;
+  border: none;
+  flex-shrink: 0;
+  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* BUTTON CLASS */
+
+.variant-default {
+  background-color: #fff;
+  color: #000000;
+  border: 2px solid var(--main-lightblue);
+}
+
+.variant-active {
+  background-color: #fff;
+  color: #000000;
+  border: 2px solid var(--main-blue);
+}
+
+.variant-default-active {
+  color: white;
+  background-color: var(--main-blue);
+}
+
+.variant-disabled {
+  color: var(--main-skyblue);
+  background-color: var(--main-lightblue);
+}
+
+.disabled-true {
+  color: var(--main-skyblue);
+  background-color: var(--main-lightblue);
+}
+
+.disabled-false {
+}
+
+/* BUTTON SIZE CLASS */
+
+.size-large {
+  width: 350px;
+  height: 55px;
+  font-family: var(--basic-font), sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+}
+
+.size-big {
+  width: 350px;
+  height: 45px;
+  font-family: var(--basic-font), sans-serif;
+  font-weight: 700;
+  font-size: 15px;
+}
+
+.size-medium {
+  width: 169px;
+  height: 45px;
+  font-family: var(--basic-font), sans-serif;
+  font-weight: 700;
+  font-size: 13px;
+}
+
+.size-med-small {
+  width: 200px;
+  height: 35px;
+  font-family: var(--basic-font), sans-serif;
+  font-weight: 600;
+  font-size: 11px;
+}
+
+.size-small {
+  width: 63px;
+  height: 35px;
+  font-family: var(--basic-font), sans-serif;
+  font-weight: 700;
+  font-size: 13px;
+}
+
+.size-ssmall {
+  border-radius: 5px;
+  width: 77px;
+  height: 35px;
+  font-family: Inter;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.size-tiny {
+  border-radius: 7px;
+  width: 40px;
+  height: 20px;
+  font-family: var(--basic-font), sans-serif;
+  font-weight: 600;
+  font-size: 8px;
+}
+
+/* BUTTON STYLE */
+
+.white {
+  background-color: #fff;
+  border: 1px solid var(--main-skyblue);
+  color: var(--main-blue);
+}
+
+.lightblue {
+  color: #000;
+  background-color: var(--main-lightblue);
+}
+
+/* FONT CLASSES */
+.b-super {
+  font-family: var(--basic-font), sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+}
+
+.b-large {
+  font-family: var(--basic-font), sans-serif;
+  font-weight: 700;
+  font-size: 27px;
+}
+
+.b-big {
+  font-family: var(--basic-font), sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.b-medium {
+  font-family: var(--basic-font), sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.b-regular {
+  font-family: var(--basic-font), sans-serif;
+  font-weight: 700;
+  font-size: 15px;
+}
+
+.b-small {
+  font-family: var(--basic-font), sans-serif;
+  font-weight: 700;
+  font-size: 13px;
+}
+
+.b-tiny {
+  font-family: var(--basic-font), sans-serif;
+  font-weight: 700;
+  font-size: 10px;
+}
+
+.r-super {
+  font-family: var(--basic-font), sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.r-large {
+  font-family: var(--basic-font), sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+}
+
+.r-big {
+  font-family: var(--basic-font), sans-serif;
+  font-weight: 400;
+  font-size: 13px;
+}
+
+.r-medium {
+  font-family: var(--basic-font), sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+}
+
+.r-regular {
+  font-family: var(--basic-font), sans-serif;
+  font-weight: 400;
+  font-size: 11px;
+}
+
+.r-small {
+  font-family: var(--basic-font), sans-serif;
+  font-weight: 400;
+  font-size: 10px;
+}
+
+.r-tiny {
+  font-family: var(--basic-font), sans-serif;
+  font-weight: 400;
+  font-size: 8px;
+}
+
+.s-large {
+  font-family: var(--basic-font), sans-serif;
+  font-weight: 600;
+  font-size: 17px;
+}
+
+.s-big {
+  font-family: var(--basic-font), sans-serif;
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.s-medium {
+  font-family: var(--basic-font), sans-serif;
+  font-weight: 600;
+  font-size: 13px;
+}
+
+.s-regular {
+  font-family: var(--basic-font), sans-serif;
+  font-weight: 600;
+  font-size: 11px;
+}
+
+.s-small {
+  font-family: var(--basic-font), sans-serif;
+  font-weight: 600;
+  font-size: 10px;
+}
+
+.s-tiny {
+  font-family: var(--basic-font), sans-serif;
+  font-weight: 600;
+  font-size: 8px;
+}

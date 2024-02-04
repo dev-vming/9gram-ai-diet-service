@@ -1,0 +1,54 @@
+* {
+  box-sizing: border-box;
+}
+
+.containerName {
+  padding: 18px 0 0 18px;
+  text-align: left;
+  font-family: Inter;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 14px;
+}
+
+.tagContainer {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  gap: 10px;
+  padding: 0 18px;
+}
+
+.tagStyle {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 53px;
+  height: 22px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background: var(--main-lightblue, #edf3f9);
+  font-family: Inter;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-align: center;
+  margin-right: 10px;
+  padding: 3px 8px;
+}
+
+.guideComment {
+  position: relative;
+  color: var(--gray-lev2, #2b2b2b);
+  text-align: center;
+  /* R-Big */
+  font-family: Inter;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 60px;
+}

@@ -1,0 +1,21 @@
+.header {
+  width: 100%;
+  height: 70px;
+  background: #ffffff;
+  padding: 0px 20px;
+  border-bottom: solid 1px var(--gray-lev-1);
+  display: flex;
+}
+
+.arrow {
+  width: 6px;
+  height: 12px;
+  justify-content: flex-start;
+  margin: auto 0;
+}
+
+.text {
+  margin: auto;
+  font-size: var(--large-font-size);
+  font-weight: 700;
+}

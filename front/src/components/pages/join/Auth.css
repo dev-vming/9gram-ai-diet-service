@@ -1,0 +1,136 @@
+.center-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.logo-container {
+  text-align: center;
+}
+
+.logo {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  display: inline-block;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+/* FONT CLASSES */
+.b-super {
+  font-family: var(--basic-font), sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+}
+
+.b-large {
+  font-family: var(--basic-font), sans-serif;
+  font-weight: 700;
+  font-size: 27px;
+}
+
+.b-big {
+  font-family: var(--basic-font), sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.b-medium {
+  font-family: var(--basic-font), sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.b-regular {
+  font-family: var(--basic-font), sans-serif;
+  font-weight: 700;
+  font-size: 15px;
+}
+
+.b-small {
+  font-family: var(--basic-font), sans-serif;
+  font-weight: 700;
+  font-size: 13px;
+}
+
+.b-tiny {
+  font-family: var(--basic-font), sans-serif;
+  font-weight: 700;
+  font-size: 10px;
+}
+
+.r-super {
+  font-family: var(--basic-font), sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.r-large {
+  font-family: var(--basic-font), sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+}
+
+.r-big {
+  font-family: var(--basic-font), sans-serif;
+  font-weight: 400;
+  font-size: 13px;
+}
+
+.r-medium {
+  font-family: var(--basic-font), sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+}
+
+.r-regular {
+  font-family: var(--basic-font), sans-serif;
+  font-weight: 400;
+  font-size: 11px;
+}
+
+.r-small {
+  font-family: var(--basic-font), sans-serif;
+  font-weight: 400;
+  font-size: 10px;
+}
+
+.r-tiny {
+  font-family: var(--basic-font), sans-serif;
+  font-weight: 400;
+  font-size: 8px;
+}
+
+.s-superlarge {
+  font-family: var(--basic-font), sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  color: #346dff;
+}
+
+.s-large {
+  font-family: var(--basic-font), sans-serif;
+  font-weight: 600;
+  font-size: 17px;
+}
+
+.s-big {
+  font-family: var(--basic-font), sans-serif;
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.s-medium {
+  font-family: var(--basic-font), sans-serif;
+  font-weight: 600;
+  font-size: 13px;
+}
+
+.s-tiny {
+  font-family: var(--basic-font), sans-serif;
+  font-weight: 600;
+  font-size: 8px;
+}

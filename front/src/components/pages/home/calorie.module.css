@@ -1,0 +1,51 @@
+.calorie {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.progress_wrapper {
+  position: relative;
+}
+
+.progress {
+  height: 175px;
+}
+
+.frame,
+.bar,
+.overbar {
+  fill: none;
+}
+.frame {
+  stroke: var(--main-lightblue);
+  stroke-linecap: round;
+}
+.bar {
+  stroke: var(--main-blue);
+  stroke-linecap: round;
+  transform: scaleY(-1) scaleX(-1);
+}
+.overbar {
+  stroke: var(--sem-bad);
+  stroke-linecap: round;
+  transform: scaleY(-1) scaleX(-1);
+}
+
+.calorie_wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  gap: 5px;
+  position: absolute;
+  width: 300px;
+  top: 105px;
+}
+
+.calorie_num {
+  line-height: 1;
+}
+
+.calorie_standard {
+  line-height: 1.4;
+}

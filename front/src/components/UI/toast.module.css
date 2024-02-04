@@ -1,0 +1,55 @@
+.wrapper {
+  padding: 9px 12px;
+  background-color: var(--main-skyblue);
+  z-index: 99999;
+  animation: 0.5s fadeIn;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 600;
+  color: white;
+  border-radius: 10px;
+  max-width: 210px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.toast-wrapper {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  white-space: pre-line;
+}
+
+.top {
+  top: 8%;
+}
+
+.middle {
+  top: 40%;
+}
+
+.bottom {
+  top: 80%;
+}
+
+.fadeOut {
+  animation: 0.5s fadeOut;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}

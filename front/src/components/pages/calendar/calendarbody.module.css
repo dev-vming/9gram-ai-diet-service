@@ -1,0 +1,120 @@
+.cla-body {
+  /* margin: 30px 20px;
+  box-sizing: border-box; */
+  z-index: -1;
+  border: 1px solid transparent;
+}
+
+.cla-week {
+  margin: 6px 20px;
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+
+/* .day-wrapper {
+  width: 44px;
+  height: 31px;
+} */
+
+.day-arr {
+  width: 44px;
+  height: 31px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.week-wrapper {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: baseline;
+}
+
+.day-wrapper {
+  width: 50px;
+  height: 70px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: baseline;
+  user-select: none;
+}
+
+.cal-circle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  border: 1px solid var(--main-lightblue);
+  background-color: var(--main-lightblue);
+  color: var(--main-skyblue);
+  box-sizing: border-box;
+}
+
+.cal-flex {
+  display: grid;
+  width: 100%;
+  grid-template-columns: repeat(7, 1fr);
+  grid-template-rows: 70px;
+  justify-items: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.over-eat {
+  border: 1px solid var(--sem-bad);
+  background-color: var(--sem-bad);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  color: white;
+  box-sizing: border-box;
+}
+
+.moderate {
+  border: 1px solid var(--sem-great);
+  background-color: var(--sem-great);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  color: white;
+  box-sizing: border-box;
+}
+
+.selected {
+  border: 1px solid var(--main-blue);
+  background-color: var(--main-blue);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  color: white;
+  box-sizing: border-box;
+}
+
+.font-over-eat {
+  color: var(--sem-bad);
+}
+
+.font-moderate {
+  color: var(--sem-great);
+}
+
+.font-selected {
+  color: var(--main-blue);
+}

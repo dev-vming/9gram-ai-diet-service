@@ -1,0 +1,91 @@
+.top {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0 20px;
+  /* 이렇게 sticky, z-index로 처리하는것이 맞을지 */
+  position: sticky;
+  top: 0;
+  box-sizing: border-box;
+  z-index: 9999;
+  align-items: center;
+  height: 100px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+  background: #ffffff;
+}
+
+.back {
+  width: 40px;
+  margin-top: 30px;
+}
+.title_wrapper {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  margin-top: 30px;
+}
+
+.title_center {
+  display: flex;
+  gap: 10px;
+  flex-grow: 1;
+  text-align: center;
+}
+.name {
+  text-align: start;
+  font-family: var(--basic-font), sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+}
+.title {
+  text-align: center;
+  position: relative;
+  font-family: var(--basic-font), sans-serif;
+  font-weight: 700;
+  font-size: 15px;
+}
+.icon_wrapper {
+  display: flex;
+  width: 40px;
+  justify-content: space-evenly;
+  gap: 30px;
+  margin-top: 30px;
+}
+
+.navbar {
+  padding: 0 10px;
+  width: 100%;
+  height: 70px;
+  filter: drop-shadow(0px -4px 4px rgba(0, 0, 0, 0.05));
+  background: #ffffff;
+  display: flex;
+  justify-content: center;
+  gap: 48px;
+}
+
+.item {
+  cursor: pointer;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.icon {
+  width: 20px;
+  height: 20px;
+  margin: 0 auto;
+}
+
+.text {
+  margin-top: 5px;
+  font-size: 12px;
+}
+
+.top > .icon {
+  position: absolute;
+}
+
+.non-visible * {
+  display: none;
+}

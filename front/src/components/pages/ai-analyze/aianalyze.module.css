@@ -1,0 +1,18 @@
+.main_wrapper {
+  margin: 18px 20px 20px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.chats_wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.date {
+  color: var(--main-skyblue);
+  width: fit-content;
+  margin: 0 auto;
+}

@@ -1,0 +1,36 @@
+.container {
+  height: 674px;
+  display: flex;
+  flex-direction: column;
+}
+
+.searchbox {
+  width: 100%;
+  padding: 20px 20px 5px 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+
+.resultbox {
+  flex: auto;
+  max-height: 400px;
+  padding: 0px 20px;
+  align-items: start;
+  position: relative;
+}
+
+.tagbox {
+  min-height: 90px;
+  margin: 20px 20px 20px 20px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.btnbox {
+  margin: 19px 20px 25px 20px;
+  justify-content: flex-end;
+}

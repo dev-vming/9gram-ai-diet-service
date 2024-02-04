@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+}
+
+.img {
+  width: 350px;
+  height: 200px;
+  flex-shrink: 0;
+  border-radius: 10px;
+}
+
+.uploadButton {
+  color: var(--main-blue, #346dff);
+  font-family: Inter;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  cursor: pointer;
+}
+
+.uploadText {
+  color: var(--main-blue, #346dff);
+  font-family: Inter;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}

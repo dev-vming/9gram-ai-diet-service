@@ -1,0 +1,41 @@
+.container {
+  position: relative;
+  width: 130px;
+  min-height: 1.5em;
+  border: none;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  /* padding: 0.5em; */
+  border-radius: 0.25em;
+  outline: none;
+}
+.container:focus {
+  border-color: hsl(200, 100%, 50%);
+}
+
+.value {
+  flex-grow: 1;
+}
+
+.close {
+  background: none;
+  color: #777;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 0;
+  font-size: 1.25em;
+}
+
+.devider {
+  background-color: #777;
+  align-self: stretch;
+  width: 0.05em;
+}
+
+.caret {
+  translate: 0 25%;
+  border: 8px solid transparent;
+  border-top-color: black;
+}

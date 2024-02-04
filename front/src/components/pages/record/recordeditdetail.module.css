@@ -1,0 +1,80 @@
+.container {
+  margin: 4px 20px 0 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.titlebox {
+  margin-bottom: 16px;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.nutrientbox {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 16px;
+  gap: 14px;
+}
+
+.circle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 77px;
+  height: 77px;
+  background-color: var(--main-lightblue);
+  border-radius: 50%;
+}
+
+.searchbox {
+  margin-bottom: 29px;
+  position: relative;
+}
+
+.searchform {
+  display: flex;
+  flex-direction: row;
+  gap: 7px;
+}
+
+.caltext {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 15px;
+  align-items: center;
+}
+
+.calinput {
+  width: 350px;
+  height: 43px;
+  border-radius: 7px;
+  border: 1px solid var(--main-blue);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.calbtn {
+  width: 10px;
+  height: 10px;
+}
+
+.resultbox {
+  position: absolute;
+  width: 280px;
+  height: 169px;
+  background-color: white;
+  border-radius: 7px;
+  border: 1px solid var(--main-skyblue);
+  top: 105%;
+  text-align: left;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}

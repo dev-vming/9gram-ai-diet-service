@@ -1,0 +1,76 @@
+.headerContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  width: 120px;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.title {
+  color: #000;
+  font-family: Inter;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.caloriesCount {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  height: 15px;
+}
+
+.intakeCalories {
+  color: #000;
+  text-align: right;
+  font-family: Inter;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+}
+
+.totalCalories {
+  color: var(--main-skyblue);
+  font-family: Inter;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+@keyframes fillBar {
+  from {
+    width: 0;
+  }
+  to {
+    width: var(--fillWidth);
+  }
+}
+
+@keyframes fillBarAnimation {
+  from {
+    width: 0;
+  }
+  to {
+    width: var(--fillWidth);
+  }
+}
+
+.barAnimated {
+  animation: fillBar 1s ease-out forwards;
+}
+
+.startAnimation {
+  animation: fillBarAnimation 1s ease-out forwards;
+}

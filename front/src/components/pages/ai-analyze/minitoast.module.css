@@ -1,0 +1,12 @@
+.toast {
+  width: fit-content;
+  border-radius: 10px;
+  padding: 8px 14px 8px 14px;
+  background-color: var(--main-skyblue);
+  color: white;
+  position: absolute;
+  bottom: 90px;
+  left: 50%;
+  transform: translate(-50%, 0%);
+  z-index: 9999;
+}

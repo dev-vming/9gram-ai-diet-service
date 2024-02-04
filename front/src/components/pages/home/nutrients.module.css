@@ -1,0 +1,52 @@
+.nutrients {
+  display: flex;
+  justify-content: center;
+  gap: 28px;
+}
+
+.nutrient {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+}
+
+.progress_wrapper {
+  position: relative;
+}
+
+.progress {
+  transform: rotate(-90deg);
+}
+
+.bar,
+.overbar {
+  fill: none;
+}
+.frame {
+  fill: #fff;
+  stroke: var(--main-lightblue);
+  filter: drop-shadow(-2px 0px 2px rgba(0, 0, 0, 0.2));
+}
+.bar {
+  stroke: var(--main-blue);
+}
+.overbar {
+  stroke: var(--sem-bad);
+}
+
+.percent,
+.overpercent {
+  position: absolute;
+  width: 48px;
+  text-align: center;
+  top: 16px;
+}
+
+.percent {
+  color: var(--main-blue);
+}
+
+.overpercent {
+  color: var(--sem-bad);
+}
