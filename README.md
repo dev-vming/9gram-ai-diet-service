@@ -1,6 +1,5 @@
 
 # Gugram
----
 
   **Gugram**<br/>
   구그램은 AI를 활용하여 음식 사진을 인식하여 식단을 기록 및 분석해주는 서비스입니다.
@@ -18,33 +17,31 @@
 ## 1. 프로젝트 소개
 
 ### 기술 스택 <br/>
- - AI 
+ - AI <br/><br/>
   <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=Python&logoColor=white"/> <br/>
   
- - Front-end <br/>
-  typescript
+ - Front-end <br/><br/>
+   <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white"/>
    <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black"/>
    <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=React&logoColor=black"/> <br/>
 
- - Back-end <br/>
-   - Node.js
-   - Nest.js
-   - typescript
-   - postgresql
+ - Back-end <br/><br/>
+   <img src="https://img.shields.io/badge/NestJS-E0234E?style=flat-square&logo=nestJS&logoColor=white"/>
+   <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white"/>
+   <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgreSQL&logoColor=white"/>
    <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=Node.js&logoColor=white"/>
 
 ### 라이브러리 <br/>
- - 데이터분석 <br/>
+ - 데이터분석 <br/><br/>
    <img src="https://img.shields.io/badge/pandas-150458?style=flat-square&logo=pandas&logoColor=white"/>
    <img src="https://img.shields.io/badge/matplotlib-0ABF53?style=flat-square&logo=multer&logoColor=white"/> <br/>
 
- - Front-end <br/>
-   - redux
-   - module css
-   - 
+ - Front-end <br/><br/>
+   <img src="https://img.shields.io/badge/Redux-764ABC?style=flat-square&logo=redux&logoColor=white"/>
+   <img src="https://img.shields.io/badge/CSS Modules-000000?style=flat-square&logo=cssModules&logoColor=white"/>
 
- - Back-end <br/>
-   - typeorm
+ - Back-end <br/><br/>
+   <img src="https://img.shields.io/badge/TypeORM-FE0803?style=flat-square&logo=typeORM&logoColor=white"/>
    <img src="https://img.shields.io/badge/multer-FF9E0F?style=flat-square&logo=multer&logoColor=white"/>
    <img src="https://img.shields.io/badge/amazons3-569A31?style=flat-square&logo=amazons3&logoColor=white"/> <br/>
   
